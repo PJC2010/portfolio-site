@@ -1,0 +1,236 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Righteous', cursive;
+    
+}
+
+.navigation {
+    position: fixed;
+    background: rgba(16, 0, 164 , .7); 
+    text-align: center;
+    width: 100%;
+    
+}
+
+ul {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    background: transparent;
+}
+
+ul li:hover {
+    background: red;
+
+}
+
+ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px;
+}
+.toggle {
+    text-align: right;
+    width: 100%;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    box-sizing: border-box;
+    font-size: 30px;
+    display: none;
+
+}
+
+
+
+.mainBanner {
+    background: url("laptop-hero-image.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+.bioText {
+    margin-top: 20px;
+    text-align: justify;
+    padding: 0 12px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.flex-about {
+    width: 100%;
+    align-items: center;
+    padding: 20px 0;
+
+
+}
+.petepic {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%;
+}
+
+.skills {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background: #f0efef;
+}
+
+.flex-skills {
+    justify-content: space-around;
+    width: 85%;
+    flex-direction: column;
+}
+
+.skills .flex-skills {
+    margin: 30px 0;
+}
+.skills .flex-skills i {
+    font-size: 30px;
+
+}
+
+.skills .flex-skills ul li {
+    display: flex;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 10px;
+    font-weight: 400;
+    background: white;
+    color: #252525;
+    border-radius: 40px;
+}
+
+.portfolio {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.flex-portfolio {
+    justify-content: space-around;
+}
+
+.portfolio .flex-portfolio img {
+    width: 90%;
+}
+
+
+
+#contact {
+    text-align: center;
+    background: #f0efef;
+    
+}
+
+.flex-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    
+
+}
+.email-box {
+    display: flex;
+    align-items: center;
+}
+
+.fa-envelope {
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+    padding: 8px; 
+    
+}
+
+.email-text {
+    font-size: 0.9em;
+}
+.devicons-github_badge {
+    font-size: 50px;
+    margin: 5px;
+    padding: 8px; 
+}
+.github-box {
+    display: flex;
+    align-items: center;
+}
+.linkedin-box {
+    display: flex;
+    align-items: center;
+}
+.linkedin-icon{
+    margin: 5px;
+    padding: 8px; 
+}
+
+
+
+
+@media screen and (max-width: 740px){
+    .toggle {
+        display: block;
+    }
+    .navBar {
+        width: 100%;
+        display: none;
+    }
+    .navBar > li{
+        display: block;
+        text-align: center;
+    }
+    .active {
+        display: block;
+    }
+    .navigation ul li a{
+        display: block;
+        padding: 5px;
+        font-size: 20px;
+        color: white;
+        
+    }
+}
+
+
+
+
+
+    
+
+
+
+
