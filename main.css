@@ -80,6 +80,14 @@ ul li a {
     
 }
 
+.introText {
+    padding: 15px;
+}
+
+.introDo {
+    padding: 15px;
+}
+
 
 
 
@@ -147,7 +155,7 @@ ul li a {
 
 
 .skills .flex-skills ul li {
-    display: flex;
+    
     align-items: center;
     padding: 15px 15px;
     margin: 10px;
@@ -208,7 +216,7 @@ ul li a {
 .devicons-github_badge {
     font-size: 50px;
     margin: 5px;
-    padding: 8px; 
+    color: black;
 }
 .github-box {
     display: flex;
@@ -221,7 +229,10 @@ ul li a {
 .linkedin-icon{
     margin: 5px;
     padding: 8px;
-    font-size: 50px; 
+    
+}
+path {
+    fill: black;
 }
 
 
@@ -253,7 +264,7 @@ ul li a {
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
     .flex-contact {
         flex-direction: row;
     }
