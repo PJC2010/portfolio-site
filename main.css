@@ -3,9 +3,11 @@
     margin: 0;
     padding: 0;
     border: 0;
+    
 }
 html {
     scroll-behavior: smooth;
+    
 }
 
 body {
@@ -22,7 +24,7 @@ body {
     background: rgba(16, 0, 164 , .7); 
     text-align: center;
     width: 100%;
-    height: 75px;
+   
     
 }
 
@@ -34,6 +36,7 @@ ul {
 p {
     padding: 20px;
 }
+
 
 
 ul li {
@@ -181,12 +184,7 @@ ul li a {
     height: 200px;
 }
 
-.quizApp {
-    width: 33%;
-  
-}
-
-.budgetApp {
+.flex-portfolio div {
     width: 33%;
 }
 
@@ -265,7 +263,7 @@ path {
     }
     .active {
         display: block;
-        background: rgba(16, 0, 164 , .7);
+       
     }
     .navigation ul li a{
         display: block;
@@ -274,9 +272,31 @@ path {
         color: white;
         
     }
+    .about {
+        height: 100vh;
+    }
+    .skills {
+        height: 100vh;
+    }
+    .portfolio {
+        height: 100vh;
+    }
     .flex-contact{
         flex-direction: column;
     }
+    .flex-portfolio {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .flex-portfolio div {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .flex-portfolio p {
+        word-wrap:break-word;
+    }
+   
     
 }
 
