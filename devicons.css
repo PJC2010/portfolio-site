@@ -20,6 +20,7 @@
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-decoration: none;
 }
 
 .devicons-git:before {
@@ -60,6 +61,7 @@
 
 .devicons-github:before {
   content: "\e60a";
+
 }
 
 .devicons-github_full:before {
